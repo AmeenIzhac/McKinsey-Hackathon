@@ -41,3 +41,8 @@
     overflow-y: hidden;
     display: inline-block;
 }
+
+.lilTitle {
+    margin-left: 10vh;
+    margin-top: 10vh;
+}

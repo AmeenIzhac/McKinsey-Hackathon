@@ -16,25 +16,25 @@ function Campaigns() {
                     </ul>
                 </div>
             </nav>
-            <h2>Your Funding These Projects!</h2>
+            <h2 className="lilTitle">Your Funding These Projects!</h2>
             <div className="projectsBox">
-                <CampaignWidget campaignImg={"img1.png"} campaignText={"These guys are 60% way towards there fundraising goal. They are running the distance of a human colon in miles to build a disabled children school in Africa!"}/>
-                <CampaignWidget campaignImg={"img1.png"} campaignText={"These guys are 60% way towards there fundraising goal. They are running the distance of a human colon in miles to build a disabled children school in Africa!"}/>
-                <CampaignWidget campaignImg={"img1.png"} campaignText={"These guys are 60% way towards there fundraising goal. They are running the distance of a human colon in miles to build a disabled children school in Africa!"}/>
-                <CampaignWidget campaignImg={"img1.png"} campaignText={"These guys are 60% way towards there fundraising goal. They are running the distance of a human colon in miles to build a disabled children school in Africa!"}/>
-                <CampaignWidget campaignImg={"img1.png"} campaignText={"These guys are 60% way towards there fundraising goal. They are running the distance of a human colon in miles to build a disabled children school in Africa!"}/>
-                <CampaignWidget campaignImg={"img1.png"} campaignText={"These guys are 60% way towards there fundraising goal. They are running the distance of a human colon in miles to build a disabled children school in Africa!"}/>
-                <CampaignWidget campaignImg={"img1.png"} campaignText={"These guys are 60% way towards there fundraising goal. They are running the distance of a human colon in miles to build a disabled children school in Africa!"}/>
+                <CampaignWidget campaignImg={"img1.png"} progress={"60%"} campaignText={"These guys are 60% way towards there fundraising goal. They are running the distance of a human colon in miles to build a disabled children school in Africa!"}/>
+                <CampaignWidget campaignImg={"img1.png"} progress={"60%"} campaignText={"These guys are 60% way towards there fundraising goal. They are running the distance of a human colon in miles to build a disabled children school in Africa!"}/>
+                <CampaignWidget campaignImg={"img1.png"} progress={"60%"} campaignText={"These guys are 60% way towards there fundraising goal. They are running the distance of a human colon in miles to build a disabled children school in Africa!"}/>
+                <CampaignWidget campaignImg={"img1.png"} progress={"60%"} campaignText={"These guys are 60% way towards there fundraising goal. They are running the distance of a human colon in miles to build a disabled children school in Africa!"}/>
+                <CampaignWidget campaignImg={"img1.png"} progress={"60%"} campaignText={"These guys are 60% way towards there fundraising goal. They are running the distance of a human colon in miles to build a disabled children school in Africa!"}/>
+                <CampaignWidget campaignImg={"img1.png"} progress={"60%"} campaignText={"These guys are 60% way towards there fundraising goal. They are running the distance of a human colon in miles to build a disabled children school in Africa!"}/>
+                <CampaignWidget campaignImg={"img1.png"} progress={"60%"} campaignText={"These guys are 60% way towards there fundraising goal. They are running the distance of a human colon in miles to build a disabled children school in Africa!"}/>
             </div>
-            <h2>Your Complete Projects!</h2>
+            <h2 className="lilTitle">Your Complete Projects!</h2>
             <div className="projectsBox">
-                <CampaignWidget campaignImg={"img1.png"} campaignText={"These guys are 60% way towards there fundraising goal. They are running the distance of a human colon in miles to build a disabled children school in Africa!"}/>
-                <CampaignWidget campaignImg={"img1.png"} campaignText={"These guys are 60% way towards there fundraising goal. They are running the distance of a human colon in miles to build a disabled children school in Africa!"}/>
-                <CampaignWidget campaignImg={"img1.png"} campaignText={"These guys are 60% way towards there fundraising goal. They are running the distance of a human colon in miles to build a disabled children school in Africa!"}/>
-                <CampaignWidget campaignImg={"img1.png"} campaignText={"These guys are 60% way towards there fundraising goal. They are running the distance of a human colon in miles to build a disabled children school in Africa!"}/>
-                <CampaignWidget campaignImg={"img1.png"} campaignText={"These guys are 60% way towards there fundraising goal. They are running the distance of a human colon in miles to build a disabled children school in Africa!"}/>
-                <CampaignWidget campaignImg={"img1.png"} campaignText={"These guys are 60% way towards there fundraising goal. They are running the distance of a human colon in miles to build a disabled children school in Africa!"}/>
-                <CampaignWidget campaignImg={"img1.png"} campaignText={"These guys are 60% way towards there fundraising goal. They are running the distance of a human colon in miles to build a disabled children school in Africa!"}/>
+                <CampaignWidget campaignImg={"img1.png"} progress={"60%"} campaignText={"These guys are 60% way towards there fundraising goal. They are running the distance of a human colon in miles to build a disabled children school in Africa!"}/>
+                <CampaignWidget campaignImg={"img1.png"} progress={"60%"} campaignText={"These guys are 60% way towards there fundraising goal. They are running the distance of a human colon in miles to build a disabled children school in Africa!"}/>
+                <CampaignWidget campaignImg={"img1.png"} progress={"60%"} campaignText={"These guys are 60% way towards there fundraising goal. They are running the distance of a human colon in miles to build a disabled children school in Africa!"}/>
+                <CampaignWidget campaignImg={"img1.png"} progress={"60%"} campaignText={"These guys are 60% way towards there fundraising goal. They are running the distance of a human colon in miles to build a disabled children school in Africa!"}/>
+                <CampaignWidget campaignImg={"img1.png"} progress={"60%"} campaignText={"These guys are 60% way towards there fundraising goal. They are running the distance of a human colon in miles to build a disabled children school in Africa!"}/>
+                <CampaignWidget campaignImg={"img1.png"} progress={"60%"} campaignText={"These guys are 60% way towards there fundraising goal. They are running the distance of a human colon in miles to build a disabled children school in Africa!"}/>
+                <CampaignWidget campaignImg={"img1.png"} progress={"60%"} campaignText={"These guys are 60% way towards there fundraising goal. They are running the distance of a human colon in miles to build a disabled children school in Africa!"}/>
             </div>
         </>
     )
