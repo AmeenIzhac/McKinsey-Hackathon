@@ -1,0 +1,28 @@
+img:hover {
+    filter: invert(58%) sepia(49%) saturate(6323%) hue-rotate(93deg) brightness(130%) contrast(119%);
+}
+
+.object {
+    position: absolute;
+    opacity: 0.3;
+    filter: grayscale(100%);
+}
+
+.bought {
+    position: absolute;
+    left: 83vw;
+    top: 28px;
+    width: 220px;
+    height: 120px;
+    border: solid;
+    border-color: black;
+    color: green;
+}
+
+.boughtTitle {
+    position: absolute;
+    left: 83vw;
+    width: 220px;
+    height: 30px;
+    border: solid;
+}
