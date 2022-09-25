@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import { Link } from 'react-router-dom'
-import Header from "./navbar"
+import Header from "./Header"
 export default function (props) {
   let [authMode, setAuthMode] = useState("signin")
 
@@ -151,11 +151,13 @@ export default function (props) {
               placeholder="Enter given Unique ID"
             />
           </div>
-          <div className="d-grid gap-2 mt-3">
-            <button type="submit" className="btn btn-primary">
-              Submit
-            </button>
-          </div>
+          <Link to={'/Campaigns'}>
+            <div className="d-grid gap-2 mt-3">
+              <button type="submit" className="btn btn-primary">
+                Submit
+              </button>
+            </div>
+            </Link>
           <p className="text-center mt-2">
           <a href="#">Forgot password?</a>
           </p>
