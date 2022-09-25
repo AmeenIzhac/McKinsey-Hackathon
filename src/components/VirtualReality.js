@@ -1,5 +1,6 @@
 import { useState } from "react";
 import './VirtualReality.css'
+import {Link} from 'react-router-dom'
 
 function VirtualReality() {
     const [boughtItems, setBoughtItems] = useState([])
@@ -15,7 +16,7 @@ function VirtualReality() {
     const doit4 = () => { setChair2({width: "10vh", right: "36vw", top: "18vh", opacity: "1.0", filter: "none"}); setBoughtItems([...boughtItems, "$50 Chair"]) }
     const doit5 = () => { setRug({width: "30vh", right: "42.5vw", top: "30vh", opacity: "1.0", filter: "none"}); setBoughtItems([...boughtItems, "$200 Rug"]) }
     return(
-    <>
+    <div>
     <div className="boughtTitle">
         Donation List
     </div>
@@ -62,8 +63,13 @@ function VirtualReality() {
 
 
     <img className="object" style={rug} onClick={doit5} src="rug.png" alt="dw"></img>
+
+
+        <Link to={'../Campaigns'}>
+            <button className="goBack" onClick>Back</button>
+        </Link>
     
-    </>
+    </div>
     )
 }
 

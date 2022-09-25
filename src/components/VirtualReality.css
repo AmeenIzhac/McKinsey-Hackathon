@@ -1,11 +1,11 @@
-img:hover {
-    filter: invert(58%) sepia(49%) saturate(6323%) hue-rotate(93deg) brightness(130%) contrast(119%);
-}
-
 .object {
     position: absolute;
     opacity: 0.3;
     filter: grayscale(100%);
+}
+
+.object:hover {
+    filter: invert(58%) sepia(49%) saturate(6323%) hue-rotate(93deg) brightness(130%) contrast(119%);
 }
 
 .bought {
