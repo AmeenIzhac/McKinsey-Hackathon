@@ -29,20 +29,24 @@
 }
 
 .projectsBox {
-    height: 40vh;
+    height: 39vh;
     width: 90vw;
     margin-left: 10vh;
-    margin-top: 10vh;
+    margin-top: 3vh;
     border: solid 1px;
     border-color: rgb(217, 204, 204);
     border-radius: 5px;
     box-shadow: 0 10px 10px rgba(.1,.1,.1,.1);
+    display: inline-block;
     overflow-x: scroll;
     overflow-y: hidden;
-    display: inline-block;
 }
 
 .lilTitle {
     margin-left: 10vh;
-    margin-top: 10vh;
+    margin-top: 3vh;
 }
+
+::-webkit-scrollbar {
+    display: none;
+  }
